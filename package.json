@@ -1,5 +1,27 @@
 {
   "dependencies": {
+    "expres": "^0.0.5",
     "express": "^4.21.2"
+  },
+  "name": "apicalculadora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Eduardo-Castiglioni/ApiCalculadora.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Eduardo-Castiglioni/ApiCalculadora/issues"
+  },
+  "homepage": "https://github.com/Carlos-Eduardo-Castiglioni/ApiCalculadora#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
