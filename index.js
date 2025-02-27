@@ -7,7 +7,7 @@ const port = 3000;
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!!');
+    res.send('Hello Word');
 });
 
 app.get('/calculadora', (req, res) => {
@@ -84,6 +84,9 @@ app.get('/primo', (req, res) => {
         res.json({ mensagem });
 });
 
-app.listen(port, () => {
+app.listen(port, () =>  {
     console.log(`Servidor rodando na porta ${port}`);
 });
+
+    
+module.exports = app;
