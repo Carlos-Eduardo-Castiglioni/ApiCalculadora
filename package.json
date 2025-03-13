@@ -19,9 +19,9 @@
     "url": "https://github.com/Carlos-Eduardo-Castiglioni/ApiCalculadora/issues"
   },
   "homepage": "https://github.com/Carlos-Eduardo-Castiglioni/ApiCalculadora#readme",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0",
     "supertest": "^7.0.0"
-  }
+  },
+  "description": ""
 }
