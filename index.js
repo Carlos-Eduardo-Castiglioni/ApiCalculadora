@@ -39,7 +39,7 @@ app.get('/calculadora', (req, res) => {
 
         case 'divisao':
             if (number2 === 0) {
-                return res.status(400).json({ erro: "Divisão por zero não é permitido !!" });
+                return res.status(400).json({ erro: "Divisão por zero não é permitida. Tente novamente!!!" });
             }
             result = number1 / number2;
             break;
